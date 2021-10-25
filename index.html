@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/ea5f3cb1db.js" crossorigin="anonymous"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="app.css">
+
+    <title>Güncel Hava Durumu</title>
+
+</head>
+<body>
+    
+    <div id="main">
+
+        <div id="header">
+            <h1>Hava Durumu</h1>
+            <input type="text" id="serachInput" placeholder="Şehir İsmi Giriniz..">
+        </div>
+
+        <div id="load">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-cloud"></i>
+            <i class="fas fa-tint"></i>
+            <i class="fas fa-snowflake"></i>
+        </div>
+
+        <div id="content">
+
+            <div id="city"></div>
+            <div id="temp"></div>
+            
+            <div id="contentFooter">
+
+                <div id="feelsLike"></div>
+                <div id="minmax"></div>
+                <div id="humidity"></div>
+                <div id="desc"></div> 
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!--JavaScript-->
+    <script src="app.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
